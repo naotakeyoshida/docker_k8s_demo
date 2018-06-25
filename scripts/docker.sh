@@ -31,9 +31,3 @@ systemctl restart docker
 echo "========= Docker Installed ========"
 echo "========== Docker Version ========="
 docker version
-
-echo "=== Start node.js installation ==="
-sudo yum install epel-release
-sudo yum install -y nodejs npm
-echo "======= node.js installed ========"
-
