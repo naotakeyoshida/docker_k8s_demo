@@ -1,3 +1,3 @@
-#!/bin/sh
+#!/bin/bash
 gcloud components install kubectl
 
