@@ -3,5 +3,5 @@ i="$@"
 while :
 do
   curl $i
-  sleep 1
+  usleep 100000
 done
