@@ -9,7 +9,7 @@ Vagrant.configure("2") do |config|
   config.vm.network "private_network", ip: "192.168.33.200", virtualbox__intnet: "intnet"
   config.vm.provider "virtualbox" do |vb|
     vb.name = "centos7"
-    vb.customize ["modifyvm", :id, "--memory", 1024]
+    vb.customize ["modifyvm", :id, "--memory", 2048]
   end
   config.vm.provision :shell, path: "scripts/bootstrap.sh"
   config.vm.provision :shell, path: "scripts/docker.sh"
