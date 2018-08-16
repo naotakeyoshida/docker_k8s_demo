@@ -4,7 +4,7 @@ You can go through simple operations of Docker and Kubernetes with GKE.
 ## Description
 With this scripts, one VM will be deployed on VirtualBox. 
 
-Host name : cento7 
+Host name : centos7 
 - IP address : 192.168.33.11
 - Software : Docker, etc
   
