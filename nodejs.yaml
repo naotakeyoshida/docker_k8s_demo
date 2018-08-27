@@ -1,18 +1,16 @@
 apiVersion: extensions/v1beta1
 kind: Deployment
 metadata:
-  labels:
-    name: demo
   name: demo
 spec:
   replicas: 3
   template:
     metadata:
       labels:
-        name: demo
+        app: demo
     spec:
       containers:
-      - image: asia.gcr.io/precise-ratio-179601/node
-        name: demo
+      - name: demo
+        image: 
         ports:
         - containerPort: 8080
