@@ -12,5 +12,6 @@ spec:
       containers:
       - name: demo
         image: 
+        ## You must input your container image name on the line above.
         ports:
         - containerPort: 8080
