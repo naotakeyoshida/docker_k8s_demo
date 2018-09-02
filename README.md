@@ -23,16 +23,16 @@ At first, you have to create a VM on VirtualBox. Then you can create your origin
 
 1. Open "Git Bash".
 1. Execute commands listed below for download scripts.  
-    `git clone "https://github.com/naotakeyoshida/docker_k8s_trial.git`  
-    `cd docker_k8s_trial`  
+    `$ git clone "https://github.com/naotakeyoshida/docker_k8s_trial.git`  
+    `$ cd docker_k8s_trial`  
 1. Power on VM on VirtualBox.  
-    `vagrant up`  
+    `$ vagrant up`  
 1. Login to the VM.  
-    `vagrant ssh`  
+    `$ vagrant ssh`  
 1. Execute preparation scripts.  
-    `cd /vagrant/scripts`  
-    `bash 1.xxxx.sh`  
-    `bash 2.xxxx.sh`  
+    `$ cd /vagrant/scripts`  
+    `$ bash 1.xxxx.sh`  
+    `$ bash 2.xxxx.sh`  
     Repeat until all scripts(1 to 6) are excuted.
 
 ## Usage
