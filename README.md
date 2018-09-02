@@ -33,7 +33,7 @@ At first, you have to create a VM on VirtualBox. Then you can create your origin
     `cd /vagrant/scripts`  
     `bash 1.xxxx.sh`  
     `bash 2.xxxx.sh`  
-
+    Repeat until all scripts(1 to 6) are excuted.
 
 ## Usage
 TBD
