@@ -18,14 +18,26 @@ With this scripts, one VM will be deployed onto VirtualBox on your PC. Then you 
 - User account of Google Cloud Platform (GCP)
 
 
-## Usage
+## Preparation
 At first, you have to create a VM on VirtualBox. Then you can create your original docker image with a simple web application(node.js). After that, you can push the image and deploy it on GKE.
 
-1. Open "Git Bash"
-1. Execute commands listed below for download scripts.
-    `git clone "https://github.com/naotakeyoshida/docker_k8s_trial.git`
-    `cd docker_k8s_trial`
-1. 
+1. Open "Git Bash".
+1. Execute commands listed below for download scripts.  
+    `git clone "https://github.com/naotakeyoshida/docker_k8s_trial.git`  
+    `cd docker_k8s_trial`  
+1. Power on VM on VirtualBox.  
+    `vagrant up`  
+1. Login to the VM.  
+    `vagrant ssh`  
+1. Execute preparation scripts.  
+    `cd /vagrant/scripts`  
+    `bash 1.xxxx.sh`  
+    `bash 2.xxxx.sh`  
+
+
+## Usage
+TBD
+
 
 ## Author
 naotakeyoshida
