@@ -1,4 +1,4 @@
-# docker_k8s_demo
+# docker_k8s_trial
 You can go through simple operations of Docker and Kubernetes with GKE.
   
 ## Description
