@@ -39,5 +39,14 @@ At first, you have to create a VM on VirtualBox. Then you can create your origin
 TBD
 
 
+## Clean Up
+You can remove all of the test environment from your PC.
+1. Log off from VM(CentOS).
+1. Execute a command listed below at the directory "docker_k8s_trial".  
+    `$ vagrant destroy`  
+1. Remove all of the software which were installed for this test.
+
+
+
 ## Author
 naotakeyoshida
