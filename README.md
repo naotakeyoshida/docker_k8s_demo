@@ -8,10 +8,10 @@ With this scripts, one VM will be deployed onto VirtualBox on your PC. Then you 
 
 ## Requirement
 - PC (OS : Windows 10)
-- Vagrant
-- git
+- Vagrant for Windows
+- git for Windows
 - VirtualBox
-- VirtualBox Host Memory: over 2GB
+  - VirtualBox Host Memory: over 2GB
   - Host name : centos73 
   - IP address : 192.168.33.11
   - Software : Docker, etc
@@ -33,7 +33,8 @@ At first, you have to create a VM on VirtualBox. Then you can create your origin
     `$ cd /vagrant/scripts`  
     `$ bash 1.xxxx.sh`  
     `$ bash 2.xxxx.sh`  
-    Repeat until all scripts(1 to 6) are excuted.
+    Repeat until all scripts(from number 1 to 6) are excuted. Do not execute bootstrup.sh and docker.sh.
+
 
 ## Usage
 TBD
@@ -45,7 +46,6 @@ You can remove all of the test environment from your PC.
 1. Execute a command listed below at the directory "docker_k8s_trial".  
     `$ vagrant destroy`  
 1. Remove all of the software which were installed for this test.
-
 
 
 ## Author
