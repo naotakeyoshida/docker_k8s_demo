@@ -1,6 +1,7 @@
 # docker_k8s_trial
 You can go through simple operations of Docker and Kubernetes with GKE as trial.
-  
+
+
 ## Description
 With this scripts, one VM will be deployed onto VirtualBox on your PC. Then you can test Docker and GKE operation.
 
@@ -18,7 +19,13 @@ With this scripts, one VM will be deployed onto VirtualBox on your PC. Then you 
 
 
 ## Usage
+At first, you have to create a VM on VirtualBox. Then you can create your original docker image with a simple web application(node.js). After that, you can push the image and deploy it on GKE.
 
+1. Open "Git Bash"
+1. Execute commands listed below for download scripts.
+    `git clone "https://github.com/naotakeyoshida/docker_k8s_trial.git`
+    `cd docker_k8s_trial`
+1. 
 
 ## Author
 naotakeyoshida
