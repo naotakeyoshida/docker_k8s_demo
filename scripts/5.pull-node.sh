@@ -1,2 +1,2 @@
 #!/bin/bash
-docker pull node:6.9
+docker pull node:8.11-alpine
