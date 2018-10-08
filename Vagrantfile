@@ -6,6 +6,7 @@ Vagrant.configure("2") do |config|
       config.cache.scope = :box
     end
   config.vm.hostname = "centos7"
+  config.vm.network "forwarded_port", guest: 8080, host: 8080
   config.vm.network "private_network", ip: "192.168.33.200", virtualbox__intnet: "intnet"
   config.vm.provider "virtualbox" do |vb|
     vb.name = "centos7"
